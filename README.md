@@ -33,9 +33,11 @@ Only Lot 3 shows a p-value below the significance level and therefore it sould b
 
 ## Study Design: MechaCar vs Competition
 
-In my opinion, the selling price of a car is the main metric that all consumers would like to verify and that can also give MechaCar an advantage against the competition. The analysis should be done using comparable car models.  
-In order to check the selling price, I would perform a multiple linear regression analysis to understand the correlation between the selling price (dependent variable) and other variables such as mpg, engine disp, hp, etc. This analysis can help us to identify which variable/s have the greatest impact on price.
-The null hypothesisshould be MechaCar is well priced based on the cars performance.
+In my opinion, the selling price of a car is the main metric that all consumers would like to verify and that can also give MechaCar an advantage against the competition. The analysis should be done using comparable car models.    
+In order to check the selling price, I would perform a multiple linear regression analysis to understand the correlation between the selling price (dependent variable) and other variables such as mpg, engine disp, hp, etc (independent variables). 
+The null hypothesis should be MechaCar is well priced based on its cars performance.  
+This analysis can help us to identify which variable/s have the greatest impact on price. To do so, we have to look at the individual variable p-value.  
+Once we have evaluated each independent variable, we need to understand the r-squared value of the model to determine if the model sufficiently predicts our dependent variable.
 
 
 
